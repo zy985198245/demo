@@ -8,3 +8,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/zy985198245/demo.git  
 git push origin master  
 
+git reset -- new.txt  将add的文件从暂存区撤下
+git reset --   撤下所有
+git diff 查看工作区修改
+git diff -- cached 查看暂存区修改
